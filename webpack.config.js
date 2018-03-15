@@ -69,7 +69,7 @@ const config = {
     inline: true,
     open: true,
   },
-  devtool: 'eval-source-map',
+  devtool: 'cheap-module-eval-source-map',
 };
 
 module.exports = config;
