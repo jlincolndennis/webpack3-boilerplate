@@ -8,6 +8,9 @@
   "plugins": ["html", "json"],
   "rules": {
     "no-use-before-define": "warn",
-    "comma-dangle": "warn"
+    "comma-dangle": "warn",
+    "global-require": "warn",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true, "optionalDependencies": false, "peerDependencies": false}],
+    "import/first": false,
     }
 }
